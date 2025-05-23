@@ -7,7 +7,6 @@ from database import fake_users_db
 
 SECRET_KEY = "my-secret-key"
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 router = APIRouter()
 
